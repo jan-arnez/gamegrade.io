@@ -1,6 +1,6 @@
 import openai from "@/lib/openai";
 import { NextRequest, NextResponse } from "next/server";
-
+export const maxDuration = 60;
 export async function POST(req: NextRequest) {
   console.log("AI is running -----------------------------------------");
   const { data, questionsAmount }: { data: string; questionsAmount: number } =
