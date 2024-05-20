@@ -1,4 +1,3 @@
-// Clean up + error handling
 import stripe from "@/lib/stripe";
 import prisma from "@/prisma/db";
 import { NextResponse } from "next/server";
