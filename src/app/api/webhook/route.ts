@@ -3,6 +3,8 @@ import prisma from "@/prisma/db";
 import { NextResponse } from "next/server";
 import type Stripe from "stripe";
 
+export const maxDuration = 60;
+
 export async function POST(request: Request) {
   const body = await request.text();
   const sig = request.headers.get("Stripe-Signature");
