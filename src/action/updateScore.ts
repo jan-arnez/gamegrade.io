@@ -1,5 +1,4 @@
 "use server";
-export const maxDuration = 60;
 import getSession from "@/lib/getSession";
 import prisma from "@/prisma/db";
 import { redirect } from "next/navigation";
