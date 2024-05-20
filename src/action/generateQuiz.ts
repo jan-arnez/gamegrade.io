@@ -1,4 +1,5 @@
 "use server";
+export const maxDuration = 60;
 import getSession from "@/lib/getSession";
 import { absoluteUrl } from "@/lib/utils";
 import prisma from "@/prisma/db";

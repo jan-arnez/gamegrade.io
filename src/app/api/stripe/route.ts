@@ -1,4 +1,5 @@
-// Clean up + error handling + naming conventions
+export const maxDuration = 60;
+
 import stripe from "@/lib/stripe";
 import { absoluteUrl } from "@/lib/utils";
 import { User } from "@prisma/client";

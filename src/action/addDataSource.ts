@@ -1,4 +1,5 @@
 "use server";
+export const maxDuration = 60;
 import { cleanText, validateText } from "@/lib/utils";
 import prisma from "@/prisma/db";
 import { revalidatePath } from "next/cache";
