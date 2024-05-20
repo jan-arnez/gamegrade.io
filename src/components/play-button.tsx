@@ -1,4 +1,7 @@
 "use client";
+export const maxDuration = 60;
+export const dynamic = "force-dynamic";
+
 import generateQuiz from "@/action/generateQuiz";
 import SelectOptions from "@/app/platform/(pages)/data-source/_components/select-options";
 import { User } from "next-auth";

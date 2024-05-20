@@ -1,3 +1,6 @@
+export const maxDuration = 60;
+export const dynamic = "force-dynamic";
+
 import quizThumbnail from "@/assets/quiz.webp";
 import getSession from "@/lib/getSession";
 import Image from "next/image";
