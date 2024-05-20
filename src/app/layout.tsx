@@ -21,7 +21,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
           fontSans.variable,
         )}
       >
-        {children}
+        <div className="hidden h-full w-full lg:block">{children}</div>
+        <div className="flex h-full min-h-screen w-full items-center justify-center lg:hidden">
+          Mobile support coming soon
+        </div>
       </body>
     </html>
   );
