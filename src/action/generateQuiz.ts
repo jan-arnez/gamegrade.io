@@ -50,6 +50,10 @@ export default async function generateQuiz(formData: FormData) {
   const session = await getSession();
   const user = session?.user;
 
+  setTimeout(() => {
+    redirect("/tutorial");
+  }, 5000);
+
   if (!user || !user.id) {
     return { message: "Not authorized" };
   }
